@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* Accessibility */
+.accessibility, .skip, hr, legend, caption{position:absolute;text-indent:-1000em}
+a:focus{outline-style:dashed;outline-width:1px;outline-color:#000}
+/* Reset */
+*{-webkit-text-size-adjust:none;max-height:1000000px;}
+html{overflow-y:scroll}
+html,body{width:100%;height:100%}
+body{font-size:20px;line-height:1em;font-family:HelveticaNeue-Light, NanumGothic, AppleSDGothicNeo-Light, sans-serif;font-weight:400;color:#4c4c4c;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,button,p,blockquote,th,td{margin:0;padding:0;}
+img,fieldset{border:0}
+ul,ol,li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+hr{display:none}
+a{color:inherit}
+a,a:link{color:#000;text-decoration:none}
+em,i,address{font-style:normal;font-weight:normal}
+legend,caption{display:none;clear:both}
+input,textarea,select,button,table{font-size:inherit;font-family:HelveticaNeue-Light, NanumGothic, AppleSDGothicNeo-Light, sans-serif;line-height:inherit}
+table{border-collapse:collapse}
+textarea,input{outline-color:-moz-use-text-color;outline-style:none;outline-width:medium}
+textarea{resize:none}
+label{cursor:pointer}
+a:visited{color:#000}
+a:hover,a:active{color:#000;text-decoration:none}
+input,select,.btn{vertical-align:middle}
+.hide_txt{text-indent:100%;white-space:nowrap;overflow:hidden}
+.blind{position:absolute;left:-10000px;top:auto;height:1px;overflow:hidden}
+
+/* [S] Guide */
+#wrap{width:640px;margin:0 auto;}
+#header{padding:29px 0 0;height:104px;background:url(../images/common/bg_heder_line.gif) no-repeat 0 bottom;text-align:center;position:relative;}
+#header h1 a{display:inline-block;vertical-align:top;}
+#header .btn_home{display:block;box-sizing:border-box;width:57px;height:57px;background:url(../images/common/btn_home.png) no-repeat center center;border:1px solid #afc6db;border-radius:5px;position:absolute;left:20px;top:35px;}
+#header .btn_logout{display:block;box-sizing:border-box;width:123px;height:55px;border:1px solid #afc6db;border-radius:2px;position:absolute;right:20px;top:35px;font-size:22px;color:#3a3d41;line-height:53px;box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.15);}
+#container{padding:55px 30px 60px;box-sizing:border-box;}
+#contents{min-height:816px}
+#footer{height:186px;background:#909090;}
+#footer footer{padding:47px 25px 0 25px}
+#footer .btn_pc_area{text-align:center;}
+#footer .btn_pc_area a{display:inline-block;width:187px;height:51px;box-sizing:border-box;border-radius:1px;vertical-align:middle;cursor:pointer;background:#fff;border:1px solid #a3bdd5;font-size:25px;color:#525252;line-height:49px;text-align:center}
+#footer .foot_info{margin:45px 0 0;font-size:18px;color:#fff;line-height:1em;}
+#footer .foot_info .copy{text-align:center;}
+/* [E] Guide */
+
+/* [S] Common html */
+.inp_txt{height:85px;box-sizing:border-box;padding:0 25px;background:#fafafa;border:1px solid #ccc;border-radius:2px;font-size:30px;line-height:83px;color:#5e6872;vertical-align:middle}
+/* btn_st_01 */
+.btn_st_01,
+a.btn_st_01{display:block;width:100%;height:83px;padding:0 40px;box-sizing:border-box;cursor:pointer;background:#fff;border:1px solid #a3bdd5;border-radius:2px;font-size:32px;line-height:81px;text-align:center}
+.btn_st_01.gray{background-color:#646e7d;border-color:#5a6370;color:#fff}
+.btn_st_01.disabled{background-color:#646e7d;border-color:#5a6370;color:#fff}
+.btn_st_01.blue{background-color:#3871be;border-color:#3e5871;color:#fff}
+.btn_st_01.green{background-color:#068a00;border-color:#235a21;color:#fff}
+/* page_title_sub */
+.page_title_sub{text-align:center;color:#184c82;font-size:40px;line-height:1em;}
+/* text_caution */
+.text_caution_01{padding-bottom:35px;border-bottom:1px solid #acacac;}
+.text_caution_01 dt{color:#2c496b;margin-bottom:18px;font-weight:bold}
+.text_caution_01 dd{padding:0 0 0 12px;line-height:30px;background:url(../images/common/bu_dot_01.gif) no-repeat 0 11px}
+/* table_view_type_01 */
+.table_view_type_01{border-top:3px solid #8abae8;}
+.table_view_type_01 table{width:100%;}
+.table_view_type_01 th{height:58px;padding:16px 20px;font-size:29px;line-height:35px;color:#184c82;font-weight:normal;background:#eff6fc;border-bottom:1px solid #acacac;}
+.table_view_type_01 td{height:58px;padding:16px 20px;font-size:29px;line-height:35px;border-bottom:1px solid #acacac;}
+/* btn_wrap_01 */
+.btn_wrap_01{margin-top:50px;text-align:center;}
+.btn_wrap_01 .btn_st_01{display:inline-block;width:auto}
+/* [E] Common html */
+
+/* [S] custom page*/
+/*main*/
+#container.main{padding:0;}
+.main #contents{box-sizing:border-box;padding:121px 0 20px;background:url(../images/main/bg_visual_test.jpg) no-repeat 0 0;text-align:center;}/*height:811px;*/
+.main .section01{margin-top:223px;}
+.main .section01 a{display:inline-block;margin:0 27px;width:160px;height:160px;border-radius:80px;-webkit-box-shadow: 3px 4px 2px rgba(35,31,32,.38);-moz-box-shadow: 3px 4px 2px rgba(35,31,32,.38);box-shadow: 3px 4px 2px rgba(35,31,32,.38);border: solid 1px #a4a6a9;background-color:#fff;background-repeat:no-repeat;text-indent:-9999em;overflow:hidden;}
+.main .section01 .btn_login{background-image:url(../images/main/bg_btn_login.png);background-position:center 35px}
+.main .section01 .btn_logout{background-image:url(../images/main/bg_btn_logout.png);background-position:center 35px}
+.main .section01 .btn_apply{background-image:url(../images/main/bg_btn_apply.png);background-position:center 23px}
+/* login */
+.login .login_wrap p{margin-bottom:30px;}
+.login .login_wrap p .inp_txt{width:100%;vertical-align:top}
+.login .login_wrap .btn_login_area{margin-top:45px;}
+.login .login_wrap .btn_login_area .btn_st_01{height:96px;font-size:38px;line-height:94px;}
+.login .text_caution_01{margin-top:114px;}
+/* apply_view */
+.apply_view .table_view_type_01{margin-top:50px;}
+.apply_view .text_caution_01{margin-top:85px;}
+/* apply_list */
+.apply_list{}
+.apply_list .list_wrap li{margin-top:30px;padding:47px 30px 50px;border:1px solid #bababa;border-radius:5px;}
+.apply_list .list_wrap li:first-child{margin-top:0;}
+.apply_list .list_wrap li .subject{font-size:30px;line-height:1.25em;color:#184c82}
+.apply_list .list_wrap li .date{margin-top:10px;font-size:22px;line-height:1em;color:#4c4c4c}
+.apply_list .list_wrap li .btn_area{margin-top:25px}
+.apply_list .list_wrap li .btn_area a{margin-top:28px}
+.apply_list .list_wrap li .btn_area a:first-child{margin-top:0}
+/* [E] custom page */

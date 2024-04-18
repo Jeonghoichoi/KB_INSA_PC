@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>동일한 디자인의 html</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="webcss">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="apply/common/css/common.css" />
+<script type="text/javascript" src="apply/common/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="apply/common/js/common.js"></script>
+<style type="text/css">
+	.title_name{margin:100px 0 20px;padding:10px 0;text-align:center;font-size:20px;line-height:30px;font-weight:bold;color:#fff;background:#333;}
+</style>
+</head>
+
+<body>
+
+<p class="title_name">========== title 관련 ==========</p>
+		<h3 class="page_title_sub">지원서 작성 class=page_title_sub</h1>
+		<h4 class="title_type_01">기본 인적사항 class=title_type_01</h4>
+		<h4 class="title_type_02">모집 요강 class=title_type_02</h4>
+
+		<div class="title_wrap_01">
+			<h2 class="title_type_01">기본 인적사항</h2>
+			<div class="rgt_area">오른쪽 영역</div>
+		</div>
+
+
+<p class="title_name">========== form tag 관련 ==========</p>
+	<p>
+		<input type="text" class="inp_txt w100" />
+		<input type="text" class="inp_txt w100" disabled="disabled" />
+	</p>
+	<p class="mt10">
+		<span class="select_box w200">
+			<select name="" id="">
+				<option value="">선택</option>
+				<option value="">선택1</option>
+				<option value="">선택2</option>
+			</select>
+		</span><!-- select_box -->
+		<span class="select_box w100">
+			<select name="" id="" disabled="disabled">
+				<option value="">선택</option>
+			</select>
+		</span><!-- select_box -->
+	</p>
+	<p class="mt10">
+		<input type="radio" class="inp_radio" id="sample01" name="samle_radio" /><label for="sample01">샘플1</label>
+		<input type="radio" class="inp_radio" id="sample02" name="samle_radio" /><label for="sample02">샘플2</label>
+		<input type="radio" class="inp_radio" id="sample03" name="samle_radio" disabled="disabled" /><label for="sample03">샘플3</label>
+		<input type="checkbox" class="inp_check" id="sample04" /><label for="sample04">샘플1</label>
+		<input type="checkbox" class="inp_check" id="sample05" /><label for="sample05">샘플2</label>
+		<input type="checkbox" class="inp_check" id="sample06" disabled="disabled" /><label for="sample03">샘플6</label>
+	</p>
+	<p class="mt10">
+		<textarea name="" id="" cols="20" rows="5" class="textarea"></textarea>
+	</p>
+
+
+<p class="title_name">========== file_ui ==========</p>
+		<div class="file_ui">
+			<input class="inp_txt file_text" value="파일선택" disabled="disabled">
+			<input type="file" id="ex_filename" class="file_add">
+			<label for="ex_filename"><span class="blind">증명서</span> 찾아보기</label> 
+		</div>
+
+
+<p class="title_name">========== btn_st_01 ==========</p>
+		<p>
+			<a href="#none" class="btn_st_01">anchor</a>
+			<input type="button" class="btn_st_01" value="input" />
+			<button type="button" class="btn_st_01">button</button>
+		</p>
+		<p class="mt10">
+			<button type="button" class="btn_st_01 blue sm">blue sm</button>
+			<button type="button" class="btn_st_01 light_blue sm">light_blue sm</button>
+			<button type="button" class="btn_st_01 green sm">green sm</button>
+			<button type="button" class="btn_st_01 white sm">white sm</button>
+			<button type="button" class="btn_st_01 gray sm">gray sm</button>
+		</p>
+		<p class="mt10">
+			<button type="button" class="btn_st_01 blue">blue</button>
+			<button type="button" class="btn_st_01 light_blue">light_blue</button>
+			<button type="button" class="btn_st_01 green">green</button>
+			<button type="button" class="btn_st_01 white">white</button>
+			<button type="button" class="btn_st_01 gray">gray</button>
+		</p>
+		<p class="mt10">
+			<button type="button" class="btn_st_01 blue big">blue big</button>
+			<button type="button" class="btn_st_01 light_blue big">light_blue big</button>
+			<button type="button" class="btn_st_01 green big">green big</button>
+			<button type="button" class="btn_st_01 white big">white big</button>
+			<button type="button" class="btn_st_01 gray big">gray big</button>
+		</p>
+
+
+<p class="title_name">========== btn_st_02 ==========</p>
+		<p>
+			<button type="button" class="btn_st_02 ico_print">ico_print</button>
+			<a href="#none" class="btn_st_02 ico_qna">ico_qna</a>
+		</p>
+
+
+<p class="title_name">========== btn_wrap_01 ==========</p>
+		<div class="btn_wrap_01">
+			<div class="btn_rgt">
+				오른쪽 <button type="button" class="btn_st_01 blue">초기화</button>
+				<button type="button" class="btn_st_01 green">저장</button>
+			</div>
+			<div class="btn_lft">
+				<a href="#none" class="btn_st_01 white">목록</a> 왼쪽
+			</div>
+			<div class="btn_ctr">
+				<button type="button" class="btn_st_01 gray">다음</button>
+			</div>
+		</div><!-- btn_wrap_01 -->
+
+
+<p class="title_name">========== text_box_01 ==========</p>
+		<div class="text_box_01 bg_01">
+			<p class="tit">찾으시는 정보가 없으시면 Q&A 에서 문의하세요.</p>
+			<div class="btn_link"><a href="#none" class="btn_st_02 ico_qna">Q&amp;A 바로가기</a></div>
+		</div><!-- text_box_01 -->
+
+		<div class="text_box_01 bg_02">
+			<p class="tit">알려드립니다</p>
+			<ul class="list_dot_type_02">
+				<li>이 공고는 테스트를 위한 공고입니다. </li>
+				<li>지원서를 작성해 주시고 죄종 제출 부탁 드립니다. </li>
+			</ul><!-- list_dot_type_02 -->
+		</div><!-- text_box_02 -->
+
+
+<p class="title_name">========== list_dot_type ==========</p>
+		<ul class="list_dot_type_01">
+			<li>list_dot_type_01</li>
+			<li>지원서를 작성해 주시고 죄종 제출 부탁 드립니다. </li>
+		</ul><!-- list_dot_type_01 -->
+
+		<ul class="list_dot_type_02">
+			<li>list_dot_type_02</li>
+			<li>지원서를 작성해 주시고 죄종 제출 부탁 드립니다. </li>
+		</ul><!-- list_dot_type_02 -->
+
+
+<p class="title_name">========== bu_text 불릿 텍스트 ==========</p>
+		<p class="bu_text_01"><i class="bu"></i>등록하신 이메일로 초기화된 비밀번호가 발송이 됩니다.</p>
+
+
+<p class="title_name">========== tab_type_01(페이지 이동 없을때) ==========</p>
+		<div class="tab_type_01">
+			<ul>
+				<li class="on tab_01"><a href="#none" class="tab_btn">기본사항</a>
+					<div class="tab_cont" style="display:block;">기본사항</div>
+				</li>
+				<li class="tab_02"><a href="#none" class="tab_btn">가족</a>
+					<div class="tab_cont">가족</div></li>
+				<li class="tab_03"><a href="#none" class="tab_btn">학력</a>
+					<div class="tab_cont"></div></li>
+				<li class="tab_04"><a href="#none" class="tab_btn">경력</a>
+					<div class="tab_cont"></div></li>
+				<li class="tab_05"><a href="#none" class="tab_btn">어학</a>
+					<div class="tab_cont"></div></li>
+				<li class="tab_06"><a href="#none" class="tab_btn">자격</a>
+					<div class="tab_cont"></div></li>
+				<li class="tab_07"><a href="#none" class="tab_btn">자기소개</a>
+					<div class="tab_cont"></div></li>
+				<li class="tab_08"><a href="#none" class="tab_btn">지원서 제출</a>
+					<div class="tab_cont"></div></li>
+			</ul>
+		</div><!-- tab_type_01 -->
+
+
+<p class="title_name">========== tab_type_02(페이지 이동 있을때) ==========</p>
+		<div class="tab_type_02">
+			<ul>
+				<li class="on"><a href="#none" class="tab_btn">탭버튼</a></li>
+				<li><a href="#none" class="tab_btn">탭버튼</a></li>
+				<li><a href="#none" class="tab_btn">탭버튼</a></li>
+				<li><a href="#none" class="tab_btn">탭버튼</a></li>
+				<li><a href="#none" class="tab_btn">탭버튼</a></li>
+			</ul>
+		</div><!-- tab_type_01 -->
+
+
+<p class="title_name">========== table_list_type_01 ==========</p>
+		<div class="table_list_type_01">
+			<table>
+				<caption>가족관계 리스트</caption>
+				<colgroup>
+					<col style="width:65px" />
+					<col style="width:85px" />
+					<col style="width:55px" />
+					<col style="width:80px" />
+					<col style="width:85px" />
+					<col style="width:100px" />
+					<col />
+					<col style="width:90px" />
+					<col style="width:90px" />
+					<col style="width:65px" />
+					<col style="width:65px" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th scope="col">관계</th>
+						<th scope="col">성명</th>
+						<th scope="col">연령</th>
+						<th scope="col">학력</th>
+						<th scope="col">졸업구분</th>
+						<th scope="col">직업</th>
+						<th scope="col">직장명</th>
+						<th scope="col">직위</th>
+						<th scope="col">동거여부</th>
+						<th scope="col">수정</th>
+						<th scope="col">삭제</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td colspan="11">등록된 내용이 없습니다.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- table_list_type_01 -->
+
+<p class="title_name">========== table_list_type_01 scroll_wrap ==========</p>
+		<div class="table_list_type_01 scroll_wrap">
+			<table>
+				<caption>가족관계 리스트</caption>
+				<colgroup>
+					<col style="width:65px" />
+					<col style="width:85px" />
+					<col style="width:55px" />
+					<col style="width:80px" />
+					<col style="width:85px" />
+					<col style="width:100px" />
+					<col />
+					<col style="width:90px" />
+					<col style="width:90px" />
+					<col style="width:65px" />
+					<col style="width:65px" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th scope="col">관계</th>
+						<th scope="col">성명</th>
+						<th scope="col">연령</th>
+						<th scope="col">학력</th>
+						<th scope="col">졸업구분</th>
+						<th scope="col">직업</th>
+						<th scope="col">직장명</th>
+						<th scope="col">직위</th>
+						<th scope="col">동거여부</th>
+						<th scope="col">수정</th>
+						<th scope="col">삭제</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td>부</td>
+						<td>홍길동</td>
+						<td>60</td>
+						<td>고등학교</td>
+						<td>졸업</td>
+						<td>프리랜서</td>
+						<td>프리랜서</td>
+						<td>사장</td>
+						<td>동거</td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_modify.png" alt="수정하기" /></button></td>
+						<td><button class="btn_st" type="button"><img src="apply/common/images/common/btn_ico_delete.png" alt="삭제하기" /></button></td>
+					</tr>
+					<tr>
+						<td colspan="11">등록된 내용이 없습니다.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- table_list_type_01 -->
+
+
+<p class="title_name">========== table_view_type_01 ==========</p>
+		<div class="table_view_type_01">
+			<table summary="">
+				<caption>연락 사항 입력폼</caption>
+				<colgroup>
+					<col style="width:150px;">
+					<col>
+					<col style="width:150px;">
+					<col>
+				</colgroup>
+				<tbody>
+					<tr>
+						<th scope="row">주소</th>
+						<td colspan="3">서울특별시 종로구 삼봉로 71 신라스테이</td>
+					</tr>
+					<tr>
+						<th scope="row">연락가능 주소</th>
+						<td colspan="3">서울특별시 종로구 삼봉로 71 신라스테이</td>
+					</tr>
+					<tr>
+						<th scope="row">전화번호</th>
+						<td>02-0000-0000</td>
+						<th scope="row">핸드폰</th>
+						<td>010-0000-0000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+<p class="title_name">========== table_form_type_01 ==========</p>
+		<div class="table_form_type_01">
+			<p class="text_mandatory">필수 입력항목</p>
+			<table summary="성명, 생년월일, 성별, 국적, 지원경로, 희망직무, 희망지역, 보훈, 장애를 입력하는 테이블">
+				<caption>기본 인적사항 입력폼</caption>
+				<colgroup>
+					<col style="width:150px;" />
+					<col style="width:150px;" />
+					<col />
+					<col style="width:150px;" />
+					<col style="width:150px;" />
+					<col />
+				</colgroup>
+				<tbody>
+					<tr>
+						<td rowspan="3">
+							<div class="user_pic">
+								<div class="user_pic_viewer"><img src="apply/common/images/support/noPhoto.gif" alt="이미지 없음" /></div>
+								<button type="button" class="btn_find">사진 찾아보기<i></i></button>
+							</div><!-- user_pic 사진 찾아보기 2016-12-09 -->
+						</td>
+						<th scope="row">성명<i class="bu_mandatory">필수 입력</i></th>
+						<td colspan="4">
+							<label for="name_kr">(한글)</label><input type="text" id="name_kr" class="inp_txt w140" />
+							<label for="name_cn" class="ml15">(한자)</label><input type="text" id="name_cn" class="inp_txt w140" />
+							<label for="name_en" class="ml15">(영문)</label><input type="text" id="name_en" class="inp_txt w140" title="예시 'GilDong Go'" />
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="birthday">생년월일<i class="bu_mandatory">필수 입력</i></label></th>
+						<td colspan="2">
+							<input type="text" id="birthday" class="inp_txt w150" title="생년월일 입력란. 예시 '2000.00.00'" placeholder="예시 '2000.00.00'" />
+							<span class="select_box ml10">
+								<select title="양음력 선택">
+									<option value="">양력</option>
+									<option value="">음력</option>
+									<option value="">윤달</option>
+								</select>
+							</span>
+						</td>
+						<th scope="row">성별<i class="bu_mandatory">필수 입력</i></th>
+						<td>
+							<input type="radio" class="inp_radio" id="gender_male" name="gender" /><label for="gender_male">남자</label>
+							<input type="radio" class="inp_radio ml10" id="gender_female" name="gender" /><label for="gender_female">여자</label>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="nationality">국적<i class="bu_mandatory">필수 입력</i></label></th>
+						<td colspan="2">
+							<span class="select_box wp100">
+							<select id="nationality" title="국적 선택">
+								<option value="">국가를 선택하세요</option>
+								<option value="">한국</option>
+								<option value="">미국</option>
+								<option value="">중국</option>
+							</select>
+							</span>
+						</td>
+						<th scope="row"><label for="support_path">지원경로<i class="bu_mandatory">필수 입력</i></label></th>
+						<td>
+							<span class="select_box wp100">
+							<select id="support_path" title="지원경로 선택">
+								<option value="">선택</option>
+							</select>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row" rowspan="3"><label for="desired_duty_01">희망직무<i class="bu_mandatory">필수 입력</i></label></th>
+						<td colspan="2" rowspan="3">
+							<span class="select_box wp100">
+								<select id="desired_duty_01">
+									<option value="">선택</option>
+								</select>
+							</span>
+						</td>
+						<th scope="row" rowspan="3">희망지역<i class="bu_mandatory">필수 입력</i></th>
+						<td colspan="2">
+							<label for="desired_area_01">1차</label>
+							<span class="select_box wp80">
+								<select id="desired_area_01">
+									<option value="">선택</option>
+								</select>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="desired_area_02">2차</label>
+							<span class="select_box wp80">
+								<select id="desired_area_02">
+									<option value="">선택</option>
+								</select>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="desired_area_03">2차</label>
+							<span class="select_box wp80">
+								<select id="desired_area_03">
+									<option value="">선택</option>
+								</select>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">보훈<i class="bu_mandatory">필수 입력</i></th>
+						<td colspan="5">
+							<label for="veterans_01">대상유무</label>
+							<span class="select_box w60">
+								<select id="veterans_01">
+									<option value="">N</option>
+									<option value="">Y</option>
+								</select>
+							</span>
+							<label for="veterans_02" class="ml15">구분</label>
+							<span class="select_box w130">
+								<select id="veterans_02">
+									<option value="">선택</option>
+								</select>
+							</span>
+							<label for="veterans_03" class="ml15">번호</label>
+							<input type="text" id="veterans_03" class="inp_txt wp30" />
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">장애<i class="bu_mandatory">필수 입력</i></th>
+						<td colspan="5">
+							<label for="disability_01">대상유무</label>
+							<span class="select_box w60">
+								<select id="disability_01">
+									<option value="">N</option>
+									<option value="">Y</option>
+								</select>
+							</span>
+							<label for="disability_02" class="ml15">구분</label>
+							<span class="select_box w130">
+								<select id="disability_02">
+									<option value="">선택</option>
+								</select>
+							</span>
+							<label for="disability_03" class="ml15">등급</label>
+							<span class="select_box w70">
+								<select id="disability_03">
+									<option value="">선택</option>
+								</select>
+							</span>
+							<label for="disability_04" class="ml15">번호</label>
+							<input type="text" id="disability_04" class="inp_txt wp30" />
+						</td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="introduce3_1">지원동기</label></th>
+						<td colspan="5" class="td_textarea">
+							<div class="textarea_wrap">
+								<p class="fs12_01 mb10">* 회사에 지원하게 된 동기를 간단하게 적습니다</p>
+								<textarea class="textarea" id="introduce3_1" cols="30" rows="10"></textarea>
+								<div class="btn_area"><button type="button" class="btn_st_01 blue sm">초기화</button></div>
+								<p class="fs12_01 mt5">* 100자 이상 1000자 이하로 입력하세요 ( 0 자)</p>
+							</div>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div><!-- table_form_type_01 -->
+
+
+<p class="title_name">========== table_form_type_02 ==========</p>
+		<div class="table_form_type_02">
+			<table summary="">
+				<caption>추가 정보 등록</caption>
+				<colgroup>
+					<col style="width:26%">
+					<col style="width:44%">
+					<col style="width:30%">
+				</colgroup>
+				<thead>
+					<th scope="col">구분</th>
+					<th scope="col">설명</th>
+					<th scope="col">등록여부</th>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row"><a href="#none">성적증명서<span class="blind">등록하기</span></a></th>
+						<td>성적표 파일첨부</td>
+						<td>미등록</td>
+					</tr>
+					<tr>
+						<th scope="row"><a href="#none">주민등록 번호<span class="blind">등록하기</span></a></th>
+						<td>주민등록번호 입력</td>
+						<td>미등록</td>
+					</tr>
+					<tr>
+						<th scope="row"><a href="#none">봉사활동 증명서<span class="blind">등록하기</span></a></th>
+						<td>증명서 파일첨부</td>
+						<td>미등록</td>
+					</tr>
+					<!-- [S] 20161212_v2 label, title 누락 수정-->
+					<!--  주민등록 번호 입력 -->
+						<tr class="tr_attach">
+						<th scope="row"><label for="id_number">주민등록 번호</label></th>
+						<td colspan="2">
+							<input type="text" class="inp_txt w130" title="주민번호 앞자리 입력란" id="id_number" /> - 
+							<input type="text" class="inp_txt w130" title="주민번호 뒷자리 입력란" />
+						</td>
+					</tr>
+					<!-- 성정증명서 등록할때
+					<tr class="tr_attach">
+						<th scope="row"><label for="transcript_reg">성적증명서 등록</label></th>
+						<td colspan="2">
+							<input type="text" class="inp_txt w276" id="transcript_reg" />
+							<button type="button" class="btn_st_01 gray"><span class="blind">성적증명서 </span>찾아보기</button>
+						</td>
+					</tr>
+					-->
+					<!-- 봉사활동 증명서 등록할때
+					<tr class="tr_attach">
+						<th scope="row"><label for="voluntary_service">봉사활동 증명서</label></th>
+						<td colspan="2">
+							<input type="text" class="inp_txt w276" id="voluntary_service" />
+							<button type="button" class="btn_st_01 gray"><span class="blind">봉사활동 증명서 </span>찾아보기</button>
+						</td>
+					</tr>
+					 -->
+					<!-- [E] 20161212_v2 label, title 누락 수정-->
+				</tbody>
+			</table>
+		</div><!-- table_form_type_02 -->
+
+
+<p class="title_name">========== faq_type_01 ==========</p>
+		<div class="faq_type_01">
+			<ul>
+				<li>
+					<div class="q"><span class="blind">질문</span><a href="#none">윈도우10 보안 프로그램 설치오류 안내드립니다.</a></div>
+					<div class="a">
+						<span class="blind">답변</span>
+						<div class="cont">
+							<p>안녕하세요</p>
+							<p>&nbsp;</p>
+							<p>교보생명 채용담당입니다.</p>
+							<p>&nbsp;</p>
+							<p>현재 윈도우 10 사용 중인 지원자 여러분들이 보안프로그램 문제가 발생하고 있습니다</p>
+							<p>&nbsp;</p>
+							<p style="LINE-HEIGHT: 1"><strong><span style="COLOR: #0025de"><u>윈도우 10은 익스플로러가 아닌 Edge로&nbsp;인터넷 기본브라우저 설정이&nbsp;되어있습니다.</u></span></strong></p>
+							<p style="LINE-HEIGHT: 1"><strong><u></u></strong>&nbsp;</p>
+							<p style="LINE-HEIGHT: 1"><strong><span style="COLOR: #0025de"><u>당사 홈페이지는 Edge 에서는 보안프로그램 설치가 되지 않습니다.</u></span></strong></p>
+							<p style="LINE-HEIGHT: 1"><strong><u></u></strong>&nbsp;</p>
+							<p style="LINE-HEIGHT: 1"><strong><span style="COLOR: #0025de"><u>반드시 익스플로러로 변경하시고 접속하시기 바랍니다.</u></span></strong></p>
+							<p>&nbsp;</p>
+							<p>감사합니다.</p>
+						</div>
+						<div class="btn_box"><a href="#none" class="btn_st_02 btn_print">인쇄</a></div>
+					</div>
+				</li>
+				<li>
+					<div class="q"><span class="blind">질문</span><a href="#none">FY2016 하반기 채용 입사지원 마감시간 연장 안내</a></div>
+					<div class="a">
+						<span class="blind">답변</span>
+						<div class="cont">
+							<p>안녕하세요</p>
+							<p>교보생명 채용담당입니다.</p>
+							<p>입사지원 마감 시간 연장 문의가 많아</p>
+							<p>마감시간을 10/6(목) 14:00 에서 10/6(목) 23:00 로 연장합니다.</p>
+							<p>감사합니다.</p>
+						</div>
+						<div class="btn_box"><a href="#none" class="btn_st_02 btn_print">인쇄</a></div>
+					</div>
+				</li>
+				<li>
+					<div class="q"><span class="blind">질문</span><a href="#none">자기소개서 항목 글자수 안내</a></div>
+					<div class="a">
+						<span class="blind">답변</span>
+						<div class="cont">
+							안녕하세요?<br>
+							교보생명 채용 담당입니다.<br>
+							<br>
+							자기소개서 항목의 '1500자 이내로 작성해주세요' 문구는<br>
+							1500자 이내로 많은 글자수를 채워야 한다는 것을 의미 하지 않습니다.<br>
+							<br>
+							다만, 교보생명 입사시 하고싶은 얘기를 글자수 제한 때문에 다하지 못하는 지원자들이 있을 수 있어<br>
+							글자수 제한을 넉넉하게 드린 것입니다.<br>
+							<br>
+							글자수 채우기가 아닌 자신의 이야기를 진솔하게 담아주시면 좋은 결과가 있을 것입니다.<br>
+							<br>
+							감사합니다.
+						</div>
+						<div class="btn_box"><a href="#none" class="btn_st_02 btn_print">인쇄</a></div>
+					</div>
+				</li>
+				<li>
+					<div class="q"><span class="blind">질문</span><a href="#none">윈도우10 보안 프로그램 설치오류 안내드립니다.</a></div>
+					<div class="a">
+						<span class="blind">답변</span>
+						<div class="cont">
+							<p>안녕하세요</p>
+							<p>&nbsp;</p>
+							<p>교보생명 채용담당입니다.</p>
+							<p>&nbsp;</p>
+							<p>현재 윈도우 10 사용 중인 지원자 여러분들이 보안프로그램 문제가 발생하고 있습니다</p>
+							<p>&nbsp;</p>
+							<p style="LINE-HEIGHT: 1"><strong><span style="COLOR: #0025de"><u>윈도우 10은 익스플로러가 아닌 Edge로&nbsp;인터넷 기본브라우저 설정이&nbsp;되어있습니다.</u></span></strong></p>
+							<p style="LINE-HEIGHT: 1"><strong><u></u></strong>&nbsp;</p>
+							<p style="LINE-HEIGHT: 1"><strong><span style="COLOR: #0025de"><u>당사 홈페이지는 Edge 에서는 보안프로그램 설치가 되지 않습니다.</u></span></strong></p>
+							<p style="LINE-HEIGHT: 1"><strong><u></u></strong>&nbsp;</p>
+							<p style="LINE-HEIGHT: 1"><strong><span style="COLOR: #0025de"><u>반드시 익스플로러로 변경하시고 접속하시기 바랍니다.</u></span></strong></p>
+							<p>&nbsp;</p>
+							<p>감사합니다.</p>
+						</div>
+						<div class="btn_box"><a href="#none" class="btn_st_02 btn_print">인쇄</a></div>
+					</div>
+				</li>
+				<li>
+					<div class="q"><span class="blind">질문</span><a href="#none">FY2016 하반기 채용 입사지원 마감시간 연장 안내</a></div>
+					<div class="a">
+						<span class="blind">답변</span>
+						<div class="cont">
+							<p>안녕하세요</p>
+							<p>교보생명 채용담당입니다.</p>
+							<p>입사지원 마감 시간 연장 문의가 많아</p>
+							<p>마감시간을 10/6(목) 14:00 에서 10/6(목) 23:00 로 연장합니다.</p>
+							<p>감사합니다.</p>
+						</div>
+						<div class="btn_box"><a href="#none" class="btn_st_02 btn_print">인쇄</a></div>
+					</div>
+				</li>
+				<li>
+					<div class="q"><span class="blind">질문</span><a href="#none">자기소개서 항목 글자수 안내</a></div>
+					<div class="a">
+						<span class="blind">답변</span>
+						<div class="cont">
+							안녕하세요?<br>
+							교보생명 채용 담당입니다.<br>
+							<br>
+							자기소개서 항목의 '1500자 이내로 작성해주세요' 문구는<br>
+							1500자 이내로 많은 글자수를 채워야 한다는 것을 의미 하지 않습니다.<br>
+							<br>
+							다만, 교보생명 입사시 하고싶은 얘기를 글자수 제한 때문에 다하지 못하는 지원자들이 있을 수 있어<br>
+							글자수 제한을 넉넉하게 드린 것입니다.<br>
+							<br>
+							글자수 채우기가 아닌 자신의 이야기를 진솔하게 담아주시면 좋은 결과가 있을 것입니다.<br>
+							<br>
+							감사합니다.
+						</div>
+						<div class="btn_box"><a href="#none" class="btn_st_02 btn_print">인쇄</a></div>
+					</div>
+				</li>
+			</ul>
+		</div><!-- faq_type_01 -->
+
+
+<p class="title_name">========== list_recruitment ==========</p>
+		<div class="list_recruitment">
+			<ul>
+				<li>
+					<a href="#none">
+						<p class="recruit_type"><span class="ico bg_green">신입</span><span class="ico bg_blue">경력</span></p>
+						<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+						<p class="period">2016.11.14 - 2016.11.18</p>
+						<p class="dday">D-2</p>
+					</a>
+				</li>
+				<li>
+					<a href="#none">
+						<p class="recruit_type"><span class="ico bg_green">신입</span></p>
+						<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+						<p class="period">2016.11.14 - 2016.11.18</p>
+						<p class="dday">D-2</p>
+					</a>
+				</li>
+				<li>
+				<a href="#none">
+					<p class="recruit_type"><span class="ico bg_blue">경력</span></p>
+					<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+					<p class="period">2016.11.14 - 2016.11.18</p>
+					<p class="dday">D-2</p>
+				</a>
+				</li>
+				<li class="end">
+				<a href="#none">
+					<p class="recruit_type"><span class="ico bg_green">신입</span><span class="ico bg_blue">경력</span></p>
+					<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+					<p class="period">2016.11.14 - 2016.11.18</p>
+					<p class="dday">D-2</p>
+				</a>
+				</li>
+				<li>
+					<a href="#none">
+						<p class="recruit_type"><span class="ico bg_green">신입</span><span class="ico bg_blue">경력</span></p>
+						<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+						<p class="period">2016.11.14 - 2016.11.18</p>
+						<p class="dday">D-2</p>
+					</a>
+				</li>
+				<li>
+					<a href="#none">
+						<p class="recruit_type"><span class="ico bg_green">신입</span></p>
+						<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+						<p class="period">2016.11.14 - 2016.11.18</p>
+						<p class="dday">D-2</p>
+					</a>
+				</li>
+				<li>
+				<a href="#none">
+					<p class="recruit_type"><span class="ico bg_blue">경력</span></p>
+					<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+					<p class="period">2016.11.14 - 2016.11.18</p>
+					<p class="dday">D-2</p>
+				</a>
+				</li>
+				<li class="end">
+				<a href="#none">
+					<p class="recruit_type"><span class="ico bg_green">신입</span><span class="ico bg_blue">경력</span></p>
+					<p class="subject">기존고객(DB) 관리 GFP 공개채용 </p>
+					<p class="period">2016.11.14 - 2016.11.18</p>
+					<p class="dday">D-2</p>
+				</a>
+				</li>
+				<li class="nodata">등록된 내용이 없습니다.</li>
+			</ul>
+		</div><!-- list_recruitment -->
+
+
+<p class="title_name">========== term_wrap_01 ==========</p>
+		<div class="term_wrap_01">
+			<div class="term">
+				<p class="tit"><strong>개인정보 수집 및 이용에 관한 동의</strong></p>
+				<ul>
+					<li>1. 개인정보 수집 및 이용 목적
+						<p>채용에 대한 문의사항 안내</p>
+					</li>
+					<li>2. 개인정보 수집항목
+						<p>이름, 전화번호(휴대전화번호, 전화번호 선택), 이메일</p>
+					</li>
+				</ul>
+			</div>
+			<div class="agree_box">
+				<p>상기 내용에 동의하십니까? </p>
+				<div class="radio_box">
+					<input type="radio" class="inp_radio" id="agree_yes" name="agree"> <label for="agree_yes">동의함</label>
+					<input type="radio" class="inp_radio" id="agree_no" name="agree"> <label for="agree_no">동의하지 않음</label>
+				</div>
+			</div>
+		</div><!-- term_wrap_01 -->
+
+
+<p class="title_name">========== table_nodata ==========</p>
+		<div class="table_nodata">등록된 전형결과가 없습니다.</div>
+
+
+<p class="title_name">========== paginate_ui ==========</p>
+		<div class="paginate_ui">
+			<a href="#none" class="btn fst"><span class="blind">처음 페이지 이동</span></a>
+			<a href="#none" class="btn prv"><span class="blind">이전 페이지 이동</span></a>
+			<strong>1</strong>
+			<a href="#none">2</a>
+			<a href="#none">3</a>
+			<a href="#none">4</a>
+			<a href="#none">5</a>
+			<a href="#none" class="btn nxt"><span class="blind">다음 페이지 이동</span></a>
+			<a href="#none" class="btn lst"><span class="blind">마지막 페이지 이동</span></a>
+		</div><!-- paginate_ui -->
+
+</body>
+</html>
