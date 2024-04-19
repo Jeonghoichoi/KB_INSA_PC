@@ -163,8 +163,14 @@
 .social_contribution .section02 .contribution_04 dt{background:url(../images/company/ico_social_contribution_02_04.png) no-repeat 23px 0}
 /* right_people */
 .right_people #contents{}/* 20170112_v1 background:url(../images/system/bg_right_people.gif) no-repeat 87px 0 */
-.right_people .section01{height:515px;background:url(../images/system/bg_right_people_01.jpg) no-repeat 0 bottom}/* 20170112_v1 padding:69px 0 0; */
+.right_people .section01{} /* 20240419 수정 */
 .right_people .section02{margin-top:59px}
+.right_people .section02 .text_excellent {display: flex; flex-direction: column; gap: 92px; align-items: center; justify-content: center;} /* 20240419 추가 */
+.right_people .section02 .text_excellent li:last-child {margin-bottom: 164px;}
+.right_people .section02 .text_excellent .title {font-size: 34px;text-align: center; line-height: 52px; font-weight: bold; color: #0065b3;} /* 20240419 추가 */
+.right_people .section02 .text_excellent .sub_title {margin-top: 12px;font-size: 24px;text-align: center;line-height: 24px; color: #3b9118;} /* 20240419 추가 */
+.right_people .section02 .text_excellent .desc {margin-top: 16px;font-size: 20px; line-height: 30px; text-align: center; color: #595959;} /* 20240419 추가 */
+
 .right_people .section02 dl{border-bottom:1px solid #9d9d9d;padding:51px 0 49px 182px}
 .right_people .section02 dl:first-child{border-top:1px solid #9d9d9d}
 .right_people .section02 dl img{vertical-align:top}
