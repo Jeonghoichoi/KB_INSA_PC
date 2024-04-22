@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'kyoboLife';
+	font-weight: 800;
+	font-display: swap;
+	src: local('kyoboLife Bold'), url('../font/kyobo/KyoboLifeBetaBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'kyoboLife';
+	font-weight: 700;
+	font-display: swap;
+	src: local('kyoboLife Bold'), url('../font/kyobo/KyoboLifeBetaSemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'kyoboLife';
+	font-weight: 600;
+	font-display: swap;
+	src: local('kyoboLife Bold'), url('../font/kyobo/KyoboLifeBetaRegular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'kyoboLife';
+	font-weight: 500;
+	font-display: swap;
+	src: local('kyoboLife Bold'), url('../font/kyobo/KyoboLifeBetaLight.woff') format('woff');
+}
