@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" type="text/css" href="apply/common/css/common.css" />
     <link rel="stylesheet" type="text/css" href="apply/common/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="apply/common/css/kyoboLifeFont.css" />
     <script type="text/javascript" src="apply/common/js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="apply/common/js/common.js"></script>
     <script type="text/javascript" src="apply/common/js/main.js"></script>
@@ -71,10 +72,12 @@
         function tempChangeBg() {
           let toggleButton = document.getElementById('toggleButton');
           let main = document.querySelector(".main");
+          let title = document.querySelector(".main-title");
           isToggled = !isToggled; 
           let backgroundImageUrl = !isToggled ? "apply/common/images/main/@visual_img_01.jpg" : "apply/common/images/main/@visual_img_02.jpg";
           main.style.backgroundImage = `url('${backgroundImageUrl}')`;
-          
+          let mainTitleColor = !isToggled ? '#000' : '#fff'
+          title.style.color = mainTitleColor;
         }
       </script>
 
@@ -82,14 +85,14 @@
       <div id="container" class="main">
         <div id="contents">
           <div class="text_title">
-            <img src="apply/common/images/main/text_img_01.png" alt="여러분의 소중한 꿈 교보생명과 함께 시작하세요" />
+            <p class="main-title">교보생명과 함께 소중한 꿈을<br />펼쳐갈 분을 찾습니다</p>
+            <!-- <img src="apply/common/images/main/text_img_01.png" alt="여러분의 소중한 꿈 교보생명과 함께 시작하세요" /> -->
           </div>
           <div class="recruit_buttons">
-            <button type="button" class="btn_st_01 white big">신입 공고 보기</button>
-            <button type="button" class="btn_st_01 white big">경력 공고 보기</button>
-            <button class="btn_st_01 white big" id="toggleButton" onclick="tempChangeBg()">배경교체</button>
+            <button type="button" class="btn_st_03">신입 공고 보기</button>
+            <button type="button" class="btn_st_03">경력 공고 보기</button>
           </div>
-
+          <button class="btn_st_03" id="toggleButton" onclick="tempChangeBg()" style="font-size: 16px;">[임시] 배경교체</button>
           <!-- <div class="text_box">
             <img
               src="apply/common/images/main/text_img_02.png"
@@ -130,13 +133,29 @@
           <!-- [E] 채용 공고가 있는 경우 20161226_v2 수정 -->
 
           <!-- [S] 채용 공고가 없는 경우 -->
-          <div class="recruit_content_type_02">
+          <!-- <div class="recruit_content_type_02">
             <a class="recruit_link_01" href="#none">회사소개</a>
             <a class="recruit_link_02" href="#none">인사제도</a>
             <a class="recruit_link_03" href="#none">인재풀</a>
-          </div>
+          </div> -->
           <!--recruit_content_type_02-->
           <!-- [E] 채용 공고가 없는 경우 -->
+          <div class="recruit_content_type_03">
+            <a class="recruit_link_01" href="#none">
+              <h4 class="headline">KYOBO City</h4>
+              <span class="summary">메타버스 상의 교보시티를 구경해보세요</span>
+              <span class="enter">들어가기</span>
+            </a>
+            <a class="recruit_link_02" href="#none">
+              <h4 class="headline">Inside KYOBO</h4>
+              <span class="summary">교보생명 공식 유튜브 채널을 구경해보세요</span>
+              <span class="enter">들어가기</span>
+            </a>
+            <a class="recruit_link_03" href="#none">
+              <h4 class="headline">KYOBO 채용콘텐츠</h4>
+              <span class="enter">들어가기</span>
+            </a>
+          </div>
         </div>
         <!--contents-->
         <div class="notice_content">

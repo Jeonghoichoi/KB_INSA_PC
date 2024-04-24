@@ -223,6 +223,12 @@ a.btn_st_01{display:inline-block;box-sizing:border-box;border-radius:2px;padding
 a.btn_st_02{display:inline-block;box-sizing:border-box;cursor:pointer;border-radius:1px;border:1px solid #bac4ce;box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.15);text-align:center;font-size:12px;color:#4c4c4c}
 .btn_st_02.ico_print{height:22px;line-height:20px;padding:0 9px 0 27px;background:#fff url(../images/common/ico_btn_print.gif) no-repeat 9px center}
 .btn_st_02.ico_qna{height:30px;line-height:28px;padding:0 11px 0 36px;background:#fff url(../images/common/ico_btn_qna.gif) no-repeat 15px center}
+
+/* 20240424 추가 */
+.btn_st_03,
+a.btn_st_03{display:flex;align-items: center;justify-content: center;width:180px;height:60px;padding:0 12px;box-sizing:border-box;cursor:pointer;background:#fff;border-radius:30px;font-size:22px;line-height:24px;text-align:center; border: 0; box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.15);font-family: 'kyoboLife';font-weight: 700;}
+.btn_st_03.disabled{background-color:#646e7d;border-color:#5a6370;color:#fff}
+
 /* btn_wrap_01 */
 .btn_wrap_01{text-align:center;margin-top:20px}
 .btn_wrap_01:after{content:'';display:block;clear:both}

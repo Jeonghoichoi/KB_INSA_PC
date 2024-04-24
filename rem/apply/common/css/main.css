@@ -35,10 +35,11 @@
 /*main*/
 .main{height:879px;position:relative;transition: all 0.5s; background:url(../images/main/@visual_img_01.jpg) no-repeat center top}
 .main #contents{box-sizing:border-box;height:100%}/* 20170104_v1 */
-.main .text_title{width:100%;position:absolute;top:67px;left:0;z-index:1;text-align:center}
+.main .text_title{width:100%;position:absolute;top:150px;left:0;z-index:1;text-align:center;}
+.main .text_title p {font-family: 'kyoboLife';font-size: 54px;color: #000;font-weight: 700;line-height: 74px;} /* 20240418 추가 */
 .main .text_box{width:100%;position:absolute;top:292px;left:0;z-index:1;text-align:center}
 
-.main .recruit_buttons {width: 100%;position: absolute; top:292px; left: 0;z-index: 1;text-align: center; } /* 20240418 추가 */
+.main .recruit_buttons {position: absolute;z-index: 1;display: flex;justify-content: center;gap: 24px;width: 100%;top:320px; left: 0;text-align: center; } /* 20240418 추가 */
 .main .recruit_content_type_01{width:1000px;margin:0 auto;overflow:hidden;position:absolute;bottom:18%}/* 20170104_v1 */
 .main .recruit_content_type_01 .recruit_box{width:320px;height:188px;float:left;margin-left:20px;position:relative;color:#fff}
 /* [S] 20161226_v2 */
@@ -65,6 +66,20 @@
 .main .recruit_content_type_02 .recruit_link_01:hover{background-image:url(../images/main/recruit_content_type_02_1_on.png)}
 .main .recruit_content_type_02 .recruit_link_02:hover{background-image:url(../images/main/recruit_content_type_02_2_on.png)}
 .main .recruit_content_type_02 .recruit_link_03:hover{background-image:url(../images/main/recruit_content_type_02_3_on.png)}
+/* 20240419_수정 */
+.main .recruit_content_type_03{position: absolute;display: flex;width:100%;height:188px;bottom:55px}/* 20240419 수정 */
+.main .recruit_content_type_03 a{position: relative;flex:1;height:188px;}
+.main .recruit_content_type_03 .recruit_link_01:after{content: '';z-index: -1;position: absolute;width: 100%;height: 100%;left: 2px;top: 0;background:url(../images/main/recruit_content_type_03_1.jpg) no-repeat 0 0}
+.main .recruit_content_type_03 .recruit_link_02:after{content: '';z-index: -1;position: absolute;width: 100%;height: 100%;left: 0;top: 0;background:url(../images/main/recruit_content_type_03_2.jpg) no-repeat 0 0}
+.main .recruit_content_type_03 .recruit_link_03:after{content: '';z-index: -1;position: absolute;width: 100%;height: 100%;left: -2px;top: 0;background:url(../images/main/recruit_content_type_03_3.jpg) no-repeat 0 0}
+.main .recruit_content_type_03 .headline {position: absolute;left: 26px;top: 34px;color: white; font-family: 'kyoboLife';font-size: 26px;font-weight: 700;}
+.main .recruit_content_type_03 .summary {position: absolute;left: 26px;top: 66px;color: white; font-family: 'kyoboLife';font-size: 16px;line-height: 24px;font-weight: 500; }
+.main .recruit_content_type_03 .enter {position: absolute;left: 26px;bottom: 24px;color: white; font-family: 'kyoboLife';font-size: 14px;font-weight: 500; }
+/* .main .recruit_content_type_03 .recruit_link_01:hover{background-image:url(../images/main/recruit_content_type_02_1_on.png)}
+.main .recruit_content_type_03 .recruit_link_02:hover{background-image:url(../images/main/recruit_content_type_02_2_on.png)}
+.main .recruit_content_type_03 .recruit_link_03:hover{background-image:url(../images/main/recruit_content_type_02_3_on.png)} */
+
+
 .main .notice_content{width:100%;height:57px;position:absolute;left:0;bottom:0;background:url(../images/main/bg_notice.png) repeat-x left top}
 .main .notice_content dl{width:1000px;height:57px;margin:0 auto;text-align:right}
 .main .notice_content dt{display:inline-block;height:100%;line-height:57px;font-size:14px;font-weight:700;color:#fff;vertical-align:top}
