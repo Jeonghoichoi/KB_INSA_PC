@@ -93,6 +93,7 @@ button::-moz-focus-inner {border:0;padding:0}
 #visual_wrap .visual_text_content{width:100%;height:99px;position:relative}
 #visual_wrap .location{position:absolute;right:0;bottom:-28px;z-index:10}/* 20161226_v1 */
 #visual_wrap .page_title{padding-left:10px}
+#visual_wrap .page_title_01{padding-left:10px; font-family: 'kyoboLife';font-size: 40px;font-weight: bold;color: #0065b3;line-height: 28px;}
 #visual_wrap .page_title img{vertical-align:top}
 #visual_wrap .page_title_02{position:absolute;top:120px;left:20px;font-size:30px;line-height:40px;font-weight:700;color:#003a77;letter-spacing:-1px}
 #visual_wrap .page_info{margin-top:12px;padding-left:14px}
