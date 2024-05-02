@@ -187,7 +187,7 @@ font-family:'kyoboLife'; margin-top: 16px;font-size: 20px; line-height: 30px; te
 /* welfare_benefit */
 .welfare_benefit #contents{}/* background:url(../images/system/bg_welfare_benefit.gif) no-repeat 281px 0 */
 .welfare_benefit .title{font-family: 'kyoboLife'; padding-left: 10px;height: 40px;line-height: 40px;font-size: 32px;color: #0065b3;font-weight: 800;}
-.welfare_benefit .sub_title{font-family: 'kyoboLife'; padding-left: 10px;height: 28px;line-height: 28px; margin-top: 12pxpx; margin-bottom: 12px; font-size: 24px;color: #478225;font-weight: 600;}
+.welfare_benefit .sub_title{font-family: 'kyoboLife'; padding-left: 10px;height: 28px;line-height: 28px; margin-top: 12px; margin-bottom: 12px; font-size: 24px;color: #478225;font-weight: 600;}
 .welfare_benefit .main_img {margin-bottom: 36px; } /* 20240419 수정 */
 .welfare_benefit .list_01{margin-top:28px;padding:48px 0 48px 288px}
 .welfare_benefit .list_01:after{content:'';display:block;clear:both}
