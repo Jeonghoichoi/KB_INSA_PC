@@ -277,6 +277,7 @@ font-family:'kyoboLife'; margin-top: 16px;font-size: 20px; line-height: 30px; te
 .job_introduction .tab_type_01 .tab_05 .tab_btn{width:157px;left:619px}
 .job_introduction .job_intro_list{}
 .job_introduction .job_intro_list .job_list {display: flex; flex-wrap: wrap; gap: 16px; justify-content: flex-start;}
+.job_introduction .job_intro_list .job_list img {width: 322px;}
 .job_introduction .job_intro_list dl{display:table;table-layout:fixed;border-bottom:1px solid #8abae8;width:973px;margin:0 auto}
 .job_introduction .job_intro_list dt{display:table-cell;padding:23px 21px;width:141px;height:141px;text-align:center;vertical-align:middle}
 .job_introduction .job_intro_list dt span{display:inline-block;width:141px;height:141px;box-sizing:border-box;padding:60px 0 0;background:url(../images/system/bg_job_introduction_title.gif) no-repeat 0 0}
