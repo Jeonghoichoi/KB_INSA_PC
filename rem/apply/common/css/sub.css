@@ -169,7 +169,7 @@
 .right_people .section02 .text_excellent li:last-child {margin-bottom: 164px;}
 .right_people .section02 .text_excellent .title {font-family:'kyoboLife';font-size: 34px;text-align: center; line-height: 52px; font-weight: bold; color: #0065b3;} /* 20240419 추가 */
 .right_people .section02 .text_excellent .sub_title {
-font-family:'kyoboLife'; margin-top: 12px;font-size: 24px;text-align: center;line-height: 24px; color: #3b9118;} /* 20240419 추가 */
+font-family:'kyoboLife'; margin-top: 10px;font-size: 24px;text-align: center;line-height: 24px; color: #3b9118;} /* 20240419 추가 */
 .right_people .section02 .text_excellent .desc {
 font-family:'kyoboLife'; margin-top: 16px;font-size: 20px; line-height: 30px; text-align: center; color: #595959;} /* 20240419 추가 */
 
@@ -218,10 +218,10 @@ font-family:'kyoboLife'; margin-top: 16px;font-size: 20px; line-height: 30px; te
 
 .welfare_benefit .section04 {margin: 140px 0 164px; display: flex; justify-content: flex-start;align-items: center;gap: 60px;background: #f9f9f9; width: 100%; height: 300px;} 
 /* 20240419 수정 */
-.welfare_benefit .section04 .text_contents  {display: flex; flex-direction: column; align-items: center; justify-content: center;margin-left: 70px;} /* 20240419 수정 */
-.welfare_benefit .section04 .text_contents .title{margin-bottom: 20px;} /* 20240419 수정 */
+.welfare_benefit .section04 .text_contents  {display: flex; flex-direction: column; align-items: flex-start; justify-content: center;margin-left: 70px;} /* 20240419 수정 */
+.welfare_benefit .section04 .text_contents .title{margin-bottom: 20px;font-weight: 700;padding: 0; } /* 20240419 수정 */
 .welfare_benefit .section04 .text_contents .text_01{font-family: 'kyoboLife';font-weight: 600;font-size: 20px; text-align: left; color: #121212; line-height: 30px;} 
-.welfare_benefit .section04 .main_img {margin-bottom: 0;}
+.welfare_benefit .section04 .main_img {margin-bottom: 0;margin-top: 24px;}
 
 /* 20240419 수정 */
 
